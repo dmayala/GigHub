@@ -178,16 +178,20 @@
       <DependentUpon>Global.asax</DependentUpon>
     </Compile>
     <Compile Include="Migrations\201609160440482_InitialModel.cs" />
-    <Compile Include="Migrations\201609160440482_InitialModel.Designer.cs">
+    <Compile Include="Migrations\201609160440482_InitialModel.designer.cs">
       <DependentUpon>201609160440482_InitialModel.cs</DependentUpon>
     </Compile>
     <Compile Include="Migrations\201609160456212_CreateGigTable.cs" />
-    <Compile Include="Migrations\201609160456212_CreateGigTable.Designer.cs">
+    <Compile Include="Migrations\201609160456212_CreateGigTable.designer.cs">
       <DependentUpon>201609160456212_CreateGigTable.cs</DependentUpon>
     </Compile>
     <Compile Include="Migrations\201609160509522_OverrideConventionsForGigsAndGenres.cs" />
-    <Compile Include="Migrations\201609160509522_OverrideConventionsForGigsAndGenres.Designer.cs">
+    <Compile Include="Migrations\201609160509522_OverrideConventionsForGigsAndGenres.designer.cs">
       <DependentUpon>201609160509522_OverrideConventionsForGigsAndGenres.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Migrations\201609161710364_PopulateGenresTable.cs" />
+    <Compile Include="Migrations\201609161710364_PopulateGenresTable.Designer.cs">
+      <DependentUpon>201609161710364_PopulateGenresTable.cs</DependentUpon>
     </Compile>
     <Compile Include="Migrations\Configuration.cs" />
     <Compile Include="Models\AccountViewModels.cs" />
@@ -275,6 +279,9 @@
     </EmbeddedResource>
     <EmbeddedResource Include="Migrations\201609160509522_OverrideConventionsForGigsAndGenres.resx">
       <DependentUpon>201609160509522_OverrideConventionsForGigsAndGenres.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\201609161710364_PopulateGenresTable.resx">
+      <DependentUpon>201609161710364_PopulateGenresTable.cs</DependentUpon>
     </EmbeddedResource>
   </ItemGroup>
   <PropertyGroup>
