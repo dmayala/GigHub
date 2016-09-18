@@ -24,17 +24,34 @@ textarea {
     max-width: 280px;
 }
 
-span.field-validation-error {
+.field-validation-error {
     color: red;
     font-weight: bold;
 }
 
-.voffset { margin-top: 2px; }
-.voffset1 { margin-top: 5px; }
-.voffset2 { margin-top: 10px; }
-.voffset3 { margin-top: 20px; }
-.voffset4 { margin-top: 40px; }
-.voffset5 { margin-top: 80px; }
+.voffset {
+    margin-top: 2px;
+}
+
+.voffset1 {
+    margin-top: 5px;
+}
+
+.voffset2 {
+    margin-top: 10px;
+}
+
+.voffset3 {
+    margin-top: 20px;
+}
+
+.voffset4 {
+    margin-top: 40px;
+}
+
+.voffset5 {
+    margin-top: 80px;
+}
 
 /* Bootstrap Overrides */
 .navbar-inverse {
@@ -103,6 +120,10 @@ h6,
         box-shadow: none;
     }
 
+select.form-control {
+    padding: 6px 15px;
+}
+
 .btn {
     border-radius: 9px;
 }
@@ -116,6 +137,7 @@ h6,
         position: relative;
         margin-bottom: 30px;
     }
+
         .gigs > li .date {
             background: red;
             color: white;
@@ -152,5 +174,3 @@ h6,
             .gigs > li .details .genre {
                 font-size: 15px;
             }
-
-
