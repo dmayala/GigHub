@@ -1,7 +1,11 @@
-﻿namespace GigHub.Core.Repositories
+﻿using GigHub.Core.Models;
+
+namespace GigHub.Core.Repositories
 {
     public interface IFollowingRepository
     {
-        bool GetFollowing(string artistId, string userId);
+        Following GetFollowing(string followerId, string followeeId);
+        void Add(Following following);
+        void Remove(Following following);
     }
 }
