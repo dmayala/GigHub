@@ -34,7 +34,7 @@ namespace GigHub.Core.Models
         {
             IsCanceled = true;
 
-            var notification = Notification.GigCancelled(this);
+            var notification = Notification.GigCanceled(this);
 
             foreach (var attendee in Attendances.Select(a => a.Attendee))
             {
