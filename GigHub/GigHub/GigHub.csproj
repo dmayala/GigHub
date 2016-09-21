@@ -235,6 +235,13 @@
     <Compile Include="Global.asax.cs">
       <DependentUpon>Global.asax</DependentUpon>
     </Compile>
+    <Compile Include="Persistence\EntityConfigurations\ApplicationUserConfiguration.cs" />
+    <Compile Include="Persistence\EntityConfigurations\AttendanceConfiguration.cs" />
+    <Compile Include="Persistence\EntityConfigurations\FollowingConfiguration.cs" />
+    <Compile Include="Persistence\EntityConfigurations\GenreConfiguration.cs" />
+    <Compile Include="Persistence\EntityConfigurations\GigConfiguration.cs" />
+    <Compile Include="Persistence\EntityConfigurations\NotificationConfiguration.cs" />
+    <Compile Include="Persistence\EntityConfigurations\UserNotificationConfiguration.cs" />
     <Compile Include="Persistence\IApplicationDbContext.cs" />
     <Compile Include="Persistence\Migrations\201609160440482_InitialModel.cs" />
     <Compile Include="Persistence\Migrations\201609160440482_InitialModel.designer.cs">
@@ -407,7 +414,6 @@
   <ItemGroup>
     <Folder Include="App_Data\" />
     <Folder Include="fonts\" />
-    <Folder Include="Models\" />
   </ItemGroup>
   <ItemGroup>
     <Content Include="Content\fonts\glyphicons-halflings-regular.woff" />
