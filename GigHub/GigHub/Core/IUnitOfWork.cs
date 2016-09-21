@@ -4,10 +4,13 @@ namespace GigHub.Core
 {
     public interface IUnitOfWork
     {
+        IAttendanceRepository Attendances { get; }
+        IFollowingRepository Followings { get; }
+        IGenreRepository Genres { get; }
         IGigRepository Gigs { get; }
-        IGenreRepository Genres { get; set; }
-        IFollowingRepository Followings { get; set; }
-        IAttendanceRepository Attendances { get; set; }
+        INotificationRepository Notifications { get; }
+        IUserNotificationRepository UserNotifications { get; }
+        IApplicationUserRepository Users { get; }
         void Complete();
     }
 }

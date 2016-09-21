@@ -229,9 +229,13 @@
     <Compile Include="Core\Dtos\AttendanceDto.cs" />
     <Compile Include="Core\Dtos\FollowingDto.cs" />
     <Compile Include="Core\Dtos\GenreDto.cs" />
+    <Compile Include="Core\Repositories\IApplicationUserRepository.cs" />
+    <Compile Include="Core\Repositories\INotificationRepository.cs" />
+    <Compile Include="Core\Repositories\IUserNotificationRepository.cs" />
     <Compile Include="Global.asax.cs">
       <DependentUpon>Global.asax</DependentUpon>
     </Compile>
+    <Compile Include="Persistence\IApplicationDbContext.cs" />
     <Compile Include="Persistence\Migrations\201609160440482_InitialModel.cs" />
     <Compile Include="Persistence\Migrations\201609160440482_InitialModel.designer.cs">
       <DependentUpon>201609160440482_InitialModel.cs</DependentUpon>
@@ -278,6 +282,9 @@
     <Compile Include="Core\Models\Genre.cs" />
     <Compile Include="Core\Models\Gig.cs" />
     <Compile Include="Core\Models\ApplicationUser.cs" />
+    <Compile Include="Persistence\Repositories\ApplicationUserRepository.cs" />
+    <Compile Include="Persistence\Repositories\NotificationRepository.cs" />
+    <Compile Include="Persistence\Repositories\UserNotificationRepository.cs" />
     <Compile Include="ViewModels\ManageViewModels.cs" />
     <Compile Include="Core\Models\Following.cs" />
     <Compile Include="Core\Models\Notification.cs" />
