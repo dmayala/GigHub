@@ -41,19 +41,4 @@ Global
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
 	EndGlobalSection
-	GlobalSection(TeamFoundationVersionControl) = preSolution
-		SccNumberOfProjects = 4
-		SccEnterpriseProvider = {4CA58AB2-18FA-4F8D-95D4-32DDF27D184C}
-		SccTeamFoundationServer = https://segnaro.visualstudio.com/defaultcollection
-		SccLocalPath0 = .
-		SccProjectUniqueName1 = GigHub\\GigHub.csproj
-		SccProjectName1 = GigHub
-		SccLocalPath1 = GigHub
-		SccProjectUniqueName2 = GigHub.Tests\\GigHub.Tests.csproj
-		SccProjectName2 = GigHub.Tests
-		SccLocalPath2 = GigHub.Tests
-		SccProjectUniqueName3 = GigHub.IntegrationTests\\GigHub.IntegrationTests.csproj
-		SccProjectName3 = GigHub.IntegrationTests
-		SccLocalPath3 = GigHub.IntegrationTests
-	EndGlobalSection
 EndGlobal
